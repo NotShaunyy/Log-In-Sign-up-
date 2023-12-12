@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+</head>
+
+<body>
+    <style>
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        #fullScreenGif {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    </style>
+    
+    <img id="fullScreenGif" src="C:\Users\defno\Pictures\Downloaded pictures\sunset.gif" alt="bgimage">   
+    <div class="center">
+        <form class="log-sign1" id="login">
+            <h1 id="logintext">Log-In</h1>
+                <p id="info">
+                    <label for="username">Username: </label><br>
+                    <input type="text" id="username" name="username" minlength="8" required><br>
+                <div class="passi">
+                        <label for="pass" id="pass">Password: </label><br>
+                        <input type="password" id="pass" name="pass" placeholder="Password" required>
+                </div>
+                <div class="dont-have-an-account">
+                        <p>Don't have an account? <a href="signup.html"id="sign-uup">Sign-Up</a></p>
+                </div>
+            </p>
+
+    <a href="home.html" class="enter2">
+        <div class="enter">
+            <p class="enter3">Log-In</p>
+        </div>
+    </a>
+        </form>
+    </div>
+</body>
+</html>
