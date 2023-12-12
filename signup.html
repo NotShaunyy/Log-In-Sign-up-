@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body>
+
+    <style>
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        #fullScreenGif {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    </style>
+    
+    <img id="fullScreenGif" src="C:\Users\defno\Pictures\Downloaded pictures\sunset.gif" alt="bgimage"> 
+
+    <div class="center">
+        <form class="log-sign2" id="signup" method="POST" action="home.html">
+            <h1 id="logintext">Sign-Up</h1>
+                <p id="info">
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" name="email"><br>
+                    
+                <div class="act-user">
+                    <label for="Username">Username: </label><br>
+                    <input type="text" id="username" name="username"><br>
+                </div>
+                <div class="passi2">
+                    <label for="pass">Password: </label><br>
+                    <input type="password" id="pass" name="pass" placeholder="Password" minlength="5">
+                    <br><br>
+                </div>
+                <div class="remm-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me" id="rem-me">Remember Me!</label>                 
+                </div>  
+                    
+                <a href="home.html" class="enter2">
+                        <div class="enter">
+                            <p class="enter3">Sign-In</p>
+                        </div>
+                    </a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
