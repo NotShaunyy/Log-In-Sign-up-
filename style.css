@@ -1,0 +1,146 @@
+/*
+Colours pallate I used
+#705b97-purple
+#da909f-pink
+#153978-blue
+#0c1432-darkblue
+#aeb1b3-grey
+*/
+
+.log-sign1 {
+    border: 1px solid #da909f;
+    background-color: #66518b;
+    border-radius: 7px;
+    padding: 10%;
+    align-items: center;
+    width: 260px;
+    height: 300px;
+
+    box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+    -moz-box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+}
+
+.log-sign2 {
+    border: 1px solid #da909f;
+    background-color: #66518b;
+    border-radius: 7px;
+    padding: 10%;
+    align-items: center;
+    width: 260px;
+    height: 340px;
+
+    box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+    -moz-box-shadow: 7px 15px 17px -1px rgba(0,0,0,0.66);
+}
+
+#logintext {
+    text-align: center;
+}
+
+#logintext {
+    text-align: center;
+}
+
+.act-user {
+    margin-top: -6px;
+}
+
+.passi2 {
+    margin-top: 7px;
+}
+
+.remm-me {
+    margin-top: -9px;
+}
+
+#sign-uup:hover {
+    color: #303030;
+}
+
+#sign-uup {
+    color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #705b97;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 86%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+input[type="submit"] {
+    height: 40px;
+    width: 100%;
+}
+
+.passi {
+    margin-top: 18px;
+}
+
+.dont-have-an-account {
+    margin-top: 20px;
+}
+
+
+.enter2 {
+    color: #aeb1b3;
+    text-decoration: none;
+    height: 100vh;
+    font-size: 22px;
+}
+
+.enter2:hover {
+    color: #999c9e; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.enter {
+    height: 40px;
+    width: 100%;
+    padding: 1px;
+    border-radius: 4px;
+    background-color: #153978;
+    border: 1px solid #0f2f68;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit-words {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.enter3 {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.enter4 {
+    margin-top: 150px;
+}
+
+.container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh;
+}
